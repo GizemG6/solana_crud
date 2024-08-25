@@ -99,7 +99,6 @@ pub struct Delete<'info> {
     pub system_program: Program<'info, System>,
 }
 
-//database model yapisi gibi
 #[account]
 pub struct SomeDataAccount {
     pub uuid: String,
